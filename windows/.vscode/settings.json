@@ -1,0 +1,6 @@
+{
+    "conventionalCommits.scopes": [
+        "StatusCard"
+    ],
+    "prettier.printWidth": 270,
+}

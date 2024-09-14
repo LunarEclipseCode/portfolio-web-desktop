@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-500 -500 6000 6000">
+  <defs>
+    <clipPath id="rounded-corners">
+      <rect x="0" y="0" width="4875" height="4875" rx="300" ry="300"/>
+    </clipPath>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CD2FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#20A5E5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0dacea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0686da;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#26a4ed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0378d2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d88dd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0377d3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#rounded-corners)">
+    <rect x="0" y="0" width="2311" height="2310" fill="url(#grad1)"/>
+    <rect x="2564" y="0" width="2311" height="2310" fill="url(#grad2)"/>
+    <rect x="0" y="2564" width="2311" height="2311" fill="url(#grad3)"/>
+    <rect x="2564" y="2564" width="2311" height="2311" fill="url(#grad4)"/>
+  </g>
+</svg>
