@@ -18,7 +18,6 @@ export class ImageEditor extends Component {
     setTimeout(() => {
       const style = document.createElement("style");
       style.innerHTML = `
-                .lpeizo { background: #161616 !important;}
                 .bugpIr { box-shadow: 0 2px 4px #202020 !important }
                 .iKiSEY { background-color: #111111 !important}
                 .imWTvl { background-color: #111111 !important}
@@ -26,6 +25,8 @@ export class ImageEditor extends Component {
                 .bwmHId { padding: 0px 2px !important;}
                 .window-y-border { width: 100% !important;}
                 .dYTMGn { background: #111111 !important}
+                .FIE_carousel-next-button { background: #161616 !important; }
+                .FIE_carousel-prev-button { background: #161616 !important; }
             `;
       document.head.appendChild(style);
     }, 0); // Delay the injection by 0ms (next tick)
