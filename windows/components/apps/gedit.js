@@ -83,7 +83,7 @@ export class Gedit extends Component {
 
     this.setState({ sending: true, showErrorModal: false });
 
-    const serviceID = process.env.NEXT_PUBLIC_SERVICE_ID;
+    const serviceID = process.env.NEXT_PUBLIC_CONTACT_SERVICE_ID;
     const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
     const templateParams = {
       name: email,
@@ -121,7 +121,7 @@ export class Gedit extends Component {
     const otp = Math.floor(100000 + Math.random() * 900000).toString();
     this.setState({ otp });
 
-    const serviceID = process.env.NEXT_PUBLIC_SERVICE_ID;
+    const serviceID = process.env.NEXT_PUBLIC_OTP_SERVICE_ID; 
     const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID_OTP;
     const templateParams = {
       name: email,
