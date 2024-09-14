@@ -1,4 +1,4 @@
-# Web simulation of UbuntuOS
+# Web simulation of Ubuntu
 
 This is a personal portfolio website of theme Ubuntu 20.04, made using Next.js & tailwind CSS.
 If you want to edit this. Clone this project and edit the files in `/src/components`.
@@ -17,16 +17,16 @@ _NOTE: if you have yarn just replace `npm start` and `npm run build` with `yarn 
 - Create a .env file in your root folder and put
 
 ```
-
 NEXT_PUBLIC_USER_ID = 'YOUR_USER_ID'
-NEXT_PUBLIC_TEMPLATE_ID = 'template_fqqqb9g'
+NEXT_PUBLIC_TEMPLATE_ID = 'template_cq712x7'
 NEXT_PUBLIC_SERVICE_ID = 'YOUR_SERVICE_ID'
-
+NEXT_PUBLIC_TEMPLATE_ID_OTP = 'template_bp7f6bt'
+NEXT_PUBLIC_SERVICE_ID_OTP = 'YOUR_OTP_MAIL_SERVICE_ID'
 ```
 
-into it. Replace \*your user id and your service ID with your values in your EmailJS service.
+into it. Replace your user id and your service ID with your values in your EmailJS service.  If you have one email address for sending OTP and another for receiving email, you would need two different service IDs.
 
-## This project was made using Create Next App! Here is the scripts that u can run.
+## This project was made using Create Next App! Here is the scripts that you can run.
 
 ### `npm start`
 
@@ -48,7 +48,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributiors who wants to make this website better can make contribution,which will be **greatly appreciated**.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributors who wants to make this website better can make contribution,which will be **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
