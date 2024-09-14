@@ -380,7 +380,7 @@ export class GPT extends Component {
             className="flex-grow bg-zinc-900 text-zinc-400 text-md p-2.5 px-4 rounded-lg outline-none shadow-inner placeholder-zinc-400 w-full"
             placeholder="Type a message..."
           />
-          <button onClick={this.handleSendMessage} className="border border-transparent bg-zinc-800 px-4 py-2 ml-2 rounded-lg text-zinc-400 shadow-md hover:bg-zinc-700 transition duration-300">
+          <button onClick={() => this.handleSendMessage(this.state.userInput)} className="border border-transparent bg-zinc-800 px-4 py-2 ml-2 rounded-lg text-zinc-400 shadow-md hover:bg-zinc-700 transition duration-300">
             Send
           </button>
         </div>
